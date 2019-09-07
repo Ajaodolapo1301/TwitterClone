@@ -1,0 +1,30 @@
+body{
+    padding: top 50px; 
+
+}
+
+.starter-template{
+    text-align: center;
+    margin-top:70px
+}
+
+.move{
+    margin: 70px
+}
+
+.nav{
+    text-align: right 
+}
+
+.moveWel{
+    text-align: center;
+    padding-top: 40px
+}
+
+.yes{
+    padding: 0 auto
+}
+
+.media-object{
+    width: 40px
+}

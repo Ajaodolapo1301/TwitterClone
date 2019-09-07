@@ -1,0 +1,29 @@
+<div  class="row move" >
+<div class="col-lg-6 col-lg-offset-3">
+    <h1>Signup</h1>
+
+    <% include ./partials/messages%>
+<form method="POST">
+    <div class="form-group">
+        <label for="name">name</label>
+        <input type="text" class="form-control" name="name" placeholder="name"
+        value="<%= typeof name != 'undefined' ? name: '' %>"  >
+    </div>
+    <div class="form-group">
+        <label for="email">email</label>
+        <input type="email" class="form-control" name="email" placeholder="email"
+        value="<%= typeof email != 'undefined' ? email: '' %>"     
+        >
+    </div>
+    <div class="form-group">
+        <label for="password">password</label>
+        <input type="password" class="form-control" name="password" placeholder="password">
+    </div>
+<button class="btn btn-primary btn-lg">submit</button>
+
+</form>
+
+
+</div>
+
+</div>
